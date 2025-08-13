@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposta: Gestió Intel·ligent de Comunicacions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <h1 class="text-2xl font-bold text-gray-900">Iaro Automation</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-20 sm:py-32">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight">Proposta: Gestió Intel·ligent de Comunicacions</h2>
+            <p class="mt-6 text-xl text-gray-700 max-w-3xl mx-auto">Transformem el caos en eficiència. Deixa que la intel·ligència artificial treballi per a tu.</p>
+        </div>
+    </section>
+
+    <!-- The Challenge Section -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-900">El Repte: Estàs desbordat?</h3>
+                <p class="mt-4 text-lg text-gray-600">Aquest soroll digital és un fre per al creixement del teu negoci.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <svg class="w-8 h-8 text-red-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"></path></svg>
+                    <h4 class="font-semibold text-lg">Pèrdua d'oportunitats</h4>
+                    <p class="text-gray-600 mt-1">Respostes lentes o emails que es perden en el flux diari.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <svg class="w-8 h-8 text-red-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <h4 class="font-semibold text-lg">Ineficiència operativa</h4>
+                    <p class="text-gray-600 mt-1">Hores de treball manual classificant i arxivant informació.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <svg class="w-8 h-8 text-red-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M15 21v-1a6 6 0 00-5.197-5.975M15 21H9"></path></svg>
+                    <h4 class="font-semibold text-lg">Processos de selecció lents</h4>
+                    <p class="text-gray-600 mt-1">Dificultat per gestionar i avaluar els candidats adequats a temps.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <svg class="w-8 h-8 text-red-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg>
+                    <h4 class="font-semibold text-lg">Informació desestructurada</h4>
+                    <p class="text-gray-600 mt-1">Dades importants disperses en lloc d'estar en una base de dades útil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Solution Section -->
+    <section class="py-16 sm:py-24 gradient-bg">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-900">La Nostra Solució: Un Assistent d'IA a la Mida de la Teva Empresa</h3>
+                <p class="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">No és un software estàndard, és un servei totalment personalitzat que s'adapta al teu flux de treball per automatitzar les tasques repetitives.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section class="py-16 sm:py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-900">Configura la Teva Solució</h3>
+                <p class="mt-4 text-lg text-gray-600">Cada mòdul és una peça que es construeix i s'adapta a les teves necessitats operatives.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Module 1 -->
+                <div class="border border-gray-200 bg-white rounded-lg p-8 shadow-lg transition duration-300 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 mb-6">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-xl mb-2">Mòdul Gestió Intel·ligent</h4>
+                        <p class="text-gray-600 mb-4">Analitzem el contingut de cada email o comunicació entrant. El nostre sistema d'IA classifica automàticament cada missatge (consultes, factures, CVs, etc.) i el redirigeix a la persona o departament adequat. Aquesta solució es personalitza completament al flux de treball de la teva empresa, eliminant colls d'ampolla i assegurant que cap comunicació important es perdi.</p>
+                    </div>
+                </div>
+                <!-- Module 2 -->
+                <div class="border border-gray-200 bg-white rounded-lg p-8 shadow-lg transition duration-300 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-green-100 mb-6">
+                             <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4M4 7l8 5 8-5"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12l8 5 8-5"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-xl mb-2">Mòdul Dades i Extracció</h4>
+                        <p class="text-gray-600 mb-4">Extreiem informació clau de documents no estructurats com factures, albarans, o currículums i la convertim en dades útils i organitzades. Aquesta informació s'integra directament a la teva base de dades, ERP o CRM. Adaptem el procés d'extracció als formats de document específics de la teva empresa i dels teus proveïdors o clients.</p>
+                    </div>
+                </div>
+                <!-- Module 3 -->
+                <div class="border border-gray-200 bg-white rounded-lg p-8 shadow-lg transition duration-300 card-hover flex flex-col">
+                    <div class="flex-grow">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-purple-100 mb-6">
+                            <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                        </div>
+                        <h4 class="font-bold text-xl mb-2">Mòdul IA-Consultes</h4>
+                        <p class="text-gray-600 mb-4">Creem un assistent virtual entrenat exclusivament amb la base de coneixement del teu negoci. Aquest assistent pot respondre de forma autònoma a les consultes freqüents dels teus clients o equip, 24/7, alliberant el teu personal per a tasques de més valor. La personalització garanteix que el to i la informació siguin sempre els de la teva marca.</p>
+                    </div>
+                </div>
+            </div>
+             <div class="mt-8 md:mt-12 border-2 border-blue-600 bg-blue-50 rounded-lg p-8 shadow-lg transition duration-300 card-hover flex flex-col relative">
+                    <span class="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">RECOMANAT</span>
+                    <div class="flex-grow md:flex md:items-center">
+                        <div class="flex-shrink-0 flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 mb-6 md:mb-0 md:mr-6">
+                            <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl mb-2">Solució Integral a Mida</h4>
+                            <p class="text-gray-600 mb-4">La sinergia definitiva per a la màxima eficiència. Aquesta solució integral combina la classificació intel·ligent, l'extracció de dades i les respostes automàtiques en un únic flux de treball fluid i totalment adaptat a les operacions de la teva empresa. Automatitza el cicle complet de comunicació, des de la recepció fins a la resolució i l'arxiu de dades.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+    <!-- Why Us Section -->
+    <section class="py-16 sm:py-24 bg-gray-100">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold text-gray-900">Un Servei Evolutiu, No un Producte Estàtic</h3>
+             <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">El nostre model de subscripció mensual garanteix que la teva solució mai no quedi obsoleta.</p>
+            <div class="mt-12 grid md:grid-cols-3 gap-8 text-left">
+                <div class="p-6">
+                    <h4 class="font-semibold text-lg">Implementació i personalització</h4>
+                    <p class="text-gray-600 mt-1">Treballem amb tu per entendre les teves necessitats i construir la solució perfecta.</p>
+                </div>
+                 <div class="p-6">
+                    <h4 class="font-semibold text-lg">Manteniment continu</h4>
+                    <p class="text-gray-600 mt-1">Ens assegurem que tot funcioni a la perfecció, sempre.</p>
+                </div>
+                 <div class="p-6">
+                    <h4 class="font-semibold text-lg">Actualitzacions tecnològiques</h4>
+                    <p class="text-gray-600 mt-1">Adaptem i millorem constantment la teva solució amb els últims avenços en IA.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Next Steps Section -->
+    <section class="py-16 sm:py-24 bg-gray-800 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold">Propers Passos: Una Solució a la Teva Mida</h3>
+            <p class="mt-4 text-lg text-gray-300 max-w-3xl mx-auto">Creiem en solucions reals, no en paquets genèrics. El proper pas és concretar una reunió amb el nostre equip. En aquesta sessió, podrem estudiar junts els processos que vols automatitzar i entendre els teus objectius. A partir d'aquesta anàlisi, et presentarem una proposta de gestió i automatització totalment personalitzada, sense cap compromís.</p>
+            <a href="#" class="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition duration-300">
+                Sol·licita la teva sessió d'anàlisi
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto px-6 text-center text-gray-400">
+            <p>&copy; 2024 Iaro Automation. Tots els drets reservats.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
